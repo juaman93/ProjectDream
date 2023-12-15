@@ -1,0 +1,15 @@
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\bin\Debug\net6.0\CoreBase.deps.json
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\bin\Debug\net6.0\CoreBase.dll
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\bin\Debug\net6.0\CoreBase.pdb
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\bin\Debug\net6.0\GodotCore.dll
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\bin\Debug\net6.0\GodotCore.pdb
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.csproj.AssemblyReference.cache
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.AssemblyInfoInputs.cache
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.AssemblyInfo.cs
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.csproj.CoreCompileInputs.cache
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.csproj.CopyComplete
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.dll
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\refint\CoreBase.dll
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\CoreBase.pdb
+D:\SE\PROJECTS\PROJECTDREAM\CoreBase\obj\Debug\net6.0\ref\CoreBase.dll
