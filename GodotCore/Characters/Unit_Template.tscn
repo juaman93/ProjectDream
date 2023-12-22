@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpde0hb0rsm8m"]
+
+[ext_resource type="PackedScene" uid="uid://cnybfjsuh7jy" path="res://character_body_3d.tscn" id="1_6kytw"]
+
+[node name="Unit" type="Node3D"]
+
+[node name="CharacterBody3D" parent="." instance=ExtResource("1_6kytw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
