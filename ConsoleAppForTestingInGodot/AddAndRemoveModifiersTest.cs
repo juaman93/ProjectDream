@@ -10,7 +10,7 @@ public class AddAndRemoveModifiersTest
         CharacterStat stat = new CharacterStat(10f);
 
         // Test AddModifier
-        CharacterStat.StatModifier modifier = new CharacterStat.StatModifier(5f, StatModType.Flat);
+        StatModifier modifier = new StatModifier(5f, StatModType.Flat);
         stat.AddModifier(modifier);
         Console.WriteLine($"Value after adding modifier: {stat.Value}");
 
