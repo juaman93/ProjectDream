@@ -15,7 +15,7 @@ public partial class CharacterData : Resource
     [Export] public float Fortitude { get; set; }
     [Export] public float Damage { get; set; }
     [Export] public float MovementPoints { get; set; }
-    [Export] public Texture Sprite { get; set; }
+    [Export] public Texture? Sprite { get; set; }
 
     public CharacterData()
     {
