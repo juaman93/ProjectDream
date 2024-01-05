@@ -1,4 +1,4 @@
-﻿using CoreBase.Character.Stat;
+﻿using CoreBase.Character.Stats;
 
 namespace ConsoleAppForTestingProjectDream;
 

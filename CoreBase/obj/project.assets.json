@@ -96,8 +96,8 @@
     },
     "GodotCore/1.0.0": {
       "type": "project",
-      "path": "../GodotCore/GodotCore.csproj",
-      "msbuildProject": "../GodotCore/GodotCore.csproj"
+      "path": "../GODOTCORE/GodotCore.csproj",
+      "msbuildProject": "../GODOTCORE/GodotCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -106,32 +106,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\infra\\.nuget\\packages\\": {}
+    "C:\\Users\\Juanma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project Dream\\CoreBase\\CoreBase.csproj",
+      "projectUniqueName": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
       "projectName": "CoreBase",
-      "projectPath": "D:\\Project Dream\\CoreBase\\CoreBase.csproj",
-      "packagesPath": "C:\\Users\\infra\\.nuget\\packages\\",
-      "outputPath": "D:\\Project Dream\\CoreBase\\obj\\",
+      "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
+      "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
+      "outputPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\infra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Project Dream\\GodotCore\\GodotCore.csproj": {
-              "projectPath": "D:\\Project Dream\\GodotCore\\GodotCore.csproj"
+            "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+              "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
             }
           }
         }
@@ -161,7 +163,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

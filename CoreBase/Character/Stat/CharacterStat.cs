@@ -1,21 +1,26 @@
-﻿using Godot;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 
 namespace CoreBase.Character.Stat;
 
+[Serializable]
 public class CharacterStat
 {
-    private bool isDirty = true;
-    private float _value;
-
+    protected bool isDirty = true;
+    protected float _value;
     public float BaseValue;
+    protected float lastBaseValue;
+    public readonly ReadOnlyCollection<StatModifier> StatModifiers;
+    protected readonly List<StatModifier> statModifiers;
 
-    private readonly List<StatModifier> statModifiers;
-    public CharacterStat(float baseValue)
+    public CharacterStat()
+    {
+        statModifiers = new List<StatModifier>();
+        StatModifiers = statModifiers.AsReadOnly();
+    }
+
+    public CharacterStat(float baseValue) : this()
     {
         BaseValue = baseValue;
-        statModifiers = new List<StatModifier>();
     }
 
     public class StatModifier
@@ -40,12 +45,13 @@ public class CharacterStat
         public StatModifier(float value, StatModType type, object source) : this(value, type, (int)type, source) { }
     }
 
-    public float Value
+    public virtual float Value
     {
         get
         {
-            if (isDirty)
+            if (isDirty || lastBaseValue != BaseValue)
             {
+                lastBaseValue = BaseValue;
                 _value = CalculateFinalValue();
                 isDirty = false;
             }
@@ -53,20 +59,24 @@ public class CharacterStat
         }
     }
 
-    public void AddModifier(StatModifier mod)
+    public virtual void AddModifier(StatModifier mod)
     {
         isDirty = true;
         statModifiers.Add(mod);
         statModifiers.Sort(CompareModifierOrder);
     }
 
-    public bool RemoveModifier(StatModifier modifier)
+    public virtual bool RemoveModifier(StatModifier mod)
     {
-        isDirty = true;
-        return statModifiers.Remove(modifier);
+        if (statModifiers.Remove(mod))
+        {
+            isDirty = true;
+            return true;
+        }
+        return false;
     }
 
-    private float CalculateFinalValue()
+    protected virtual float CalculateFinalValue()
     {
         float finalValue = BaseValue;
         float sumPercentAdd = 0; // This will hold the sum of our "PercentAdd" modifiers
@@ -101,12 +111,12 @@ public class CharacterStat
 
     public enum StatModType
     {
-        Flat,
-        PercentAdd,
-        PercentMult
+        Flat = 100,
+        PercentAdd = 200,
+        PercentMult = 300,
     }
 
-    private int CompareModifierOrder(StatModifier a, StatModifier b)
+    protected virtual int CompareModifierOrder(StatModifier a, StatModifier b)
     {
         if (a.Order < b.Order)
             return -1;
@@ -115,7 +125,7 @@ public class CharacterStat
         return 0; // if (a.Order == b.Order)
     }
 
-    public bool RemoveAllModifiersFromSource(object source)
+    public virtual bool RemoveAllModifiersFromSource(object source)
     {
         bool didRemove = false;
 
@@ -130,4 +140,6 @@ public class CharacterStat
         }
         return didRemove;
     }
+
+
 }

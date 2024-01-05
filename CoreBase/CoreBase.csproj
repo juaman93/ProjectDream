@@ -10,4 +10,8 @@
     <ProjectReference Include="..\GODOTCORE\GodotCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Character\Modifier\" />
+  </ItemGroup>
+
 </Project>
