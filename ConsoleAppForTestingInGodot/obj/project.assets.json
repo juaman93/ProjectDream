@@ -130,11 +130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
+      "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
       "projectName": "ConsoleAppForTestingInGodot",
-      "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
+      "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
       "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
-      "outputPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\obj\\",
+      "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
-              "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj"
+            "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
+              "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj"
             },
-            "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
-              "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
+            "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+              "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
             }
           }
         }
