@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj": {}
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj": {
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
+        "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
         "projectName": "ConsoleAppForTestingInGodot",
-        "projectPath": "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
-        "packagesPath": "C:\\Users\\infra\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\obj\\",
+        "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
+        "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
+        "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\infra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Users\\Public\\ProjectDream\\CoreBase\\CoreBase.csproj": {
-                "projectPath": "D:\\Users\\Public\\ProjectDream\\CoreBase\\CoreBase.csproj"
+              "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
+                "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj"
               },
-              "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj": {
-                "projectPath": "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj"
+              "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+                "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
               }
             }
           }
@@ -60,34 +62,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Public\\ProjectDream\\CoreBase\\CoreBase.csproj": {
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Public\\ProjectDream\\CoreBase\\CoreBase.csproj",
+        "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
         "projectName": "CoreBase",
-        "projectPath": "D:\\Users\\Public\\ProjectDream\\CoreBase\\CoreBase.csproj",
-        "packagesPath": "C:\\Users\\infra\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Public\\ProjectDream\\CoreBase\\obj\\",
+        "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
+        "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
+        "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\infra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj": {
-                "projectPath": "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj"
+              "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+                "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
               }
             }
           }
@@ -117,26 +121,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj": {
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj",
+        "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
         "projectName": "GodotCore",
-        "projectPath": "D:\\Users\\Public\\ProjectDream\\GodotCore\\GodotCore.csproj",
-        "packagesPath": "C:\\Users\\infra\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Public\\ProjectDream\\GodotCore\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
+        "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
+        "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\infra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -184,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

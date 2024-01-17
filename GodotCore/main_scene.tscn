@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cn7wsy2mq55ij"]
 
-[ext_resource type="PackedScene" uid="uid://cua8ncjwe6y6k" path="res://Characters/Enemy_Character_Test/Maria/maria_animated.tscn" id="2_jadnt"]
+[ext_resource type="PackedScene" uid="uid://cua8ncjwe6y6k" path="res://Characters/Enemy_Character/Maria/maria_animated.tscn" id="2_jadnt"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_l5mju"]
 size = Vector3(60, 1, 60)

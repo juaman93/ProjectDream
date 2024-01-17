@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://y8yqvehfu8j3"]
+[gd_scene load_steps=6 format=3 uid="uid://y8yqvehfu8j3"]
 
 [ext_resource type="PackedScene" uid="uid://cua8ncjwe6y6k" path="res://Characters/Enemy_Character/Maria/maria_animated.tscn" id="1_imqv1"]
+[ext_resource type="Script" path="res://Camera3D.gd" id="2_xq5xo"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8uqqg"]
 albedo_color = Color(0.243137, 0.321569, 0, 1)
@@ -11,9 +12,6 @@ size = Vector2(20, 20)
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_w6und"]
 
 [node name="Developer_Playground" type="Node3D"]
-
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 0, 3.5, 3)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 
@@ -26,3 +24,10 @@ shape = SubResource("WorldBoundaryShape3D_w6und")
 
 [node name="MariaAnimated" parent="." instance=ExtResource("1_imqv1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02325, 0, -0.934665)
+
+[node name="CameraPivot" type="Marker3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot"]
+transform = Transform3D(-1, -5.28557e-08, 6.96349e-08, 0, 0.79653, 0.604599, -8.74228e-08, 0.604599, -0.79653, -1.03145, 3.47069, -3.46831)
+fov = 80.0
+script = ExtResource("2_xq5xo")
