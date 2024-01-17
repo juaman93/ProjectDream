@@ -1,3 +1,28 @@
-[gd_scene format=3 uid="uid://y8yqvehfu8j3"]
+[gd_scene load_steps=5 format=3 uid="uid://y8yqvehfu8j3"]
+
+[ext_resource type="PackedScene" uid="uid://cua8ncjwe6y6k" path="res://Characters/Enemy_Character/Maria/maria_animated.tscn" id="1_imqv1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8uqqg"]
+albedo_color = Color(0.243137, 0.321569, 0, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_eousr"]
+size = Vector2(20, 20)
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_w6und"]
 
 [node name="Developer_Playground" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.906308, 0.422618, 0, -0.422618, 0.906308, 0, 3.5, 3)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+material_overlay = SubResource("StandardMaterial3D_8uqqg")
+mesh = SubResource("PlaneMesh_eousr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("WorldBoundaryShape3D_w6und")
+
+[node name="MariaAnimated" parent="." instance=ExtResource("1_imqv1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02325, 0, -0.934665)
