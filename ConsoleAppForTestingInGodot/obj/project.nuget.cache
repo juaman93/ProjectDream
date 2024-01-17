@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kF+cKSVPH2LBz9OLjBbvc37QokndCG1XVIT0r8snVgj1YTjSgdJ612DgodJ+lXhMwcAk4VBY9isyfv6uLwk25Q==",
+  "dgSpecHash": "N9Qurjz0Sx3Ps+neEPIOQXQlFoqekklafcS6QwjJVUHCdnk/OgRm3tH2qIk7oQ0VJ8ty+hu3j2Ti1lY8r7RHOA==",
   "success": true,
-  "projectFilePath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
+  "projectFilePath": "D:\\Users\\Public\\ProjectDream\\ConsoleAppForTestingInGodot\\ConsoleAppForTestingInGodot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Juanma\\.nuget\\packages\\godot.sourcegenerators\\4.1.3\\godot.sourcegenerators.4.1.3.nupkg.sha512",
-    "C:\\Users\\Juanma\\.nuget\\packages\\godotsharp\\4.1.3\\godotsharp.4.1.3.nupkg.sha512",
-    "C:\\Users\\Juanma\\.nuget\\packages\\godotsharpeditor\\4.1.3\\godotsharpeditor.4.1.3.nupkg.sha512"
+    "C:\\Users\\infra\\.nuget\\packages\\godot.sourcegenerators\\4.1.3\\godot.sourcegenerators.4.1.3.nupkg.sha512",
+    "C:\\Users\\infra\\.nuget\\packages\\godotsharp\\4.1.3\\godotsharp.4.1.3.nupkg.sha512",
+    "C:\\Users\\infra\\.nuget\\packages\\godotsharpeditor\\4.1.3\\godotsharpeditor.4.1.3.nupkg.sha512"
   ],
   "logs": []
 }
