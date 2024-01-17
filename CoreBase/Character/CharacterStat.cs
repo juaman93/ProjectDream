@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace CoreBase.Character.Stat;
+namespace CoreBase.Character;
 
 [Serializable]
 public class CharacterStat
