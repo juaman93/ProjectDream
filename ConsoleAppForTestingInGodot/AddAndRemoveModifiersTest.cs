@@ -1,5 +1,5 @@
-﻿using CoreBase.Character.Stat;
-using static CoreBase.Character.Stat.CharacterStat;
+﻿using CoreBase.Character;
+using static CoreBase.Character.CharacterStat;
 
 namespace ConsoleAppForTestingProjectDream;
 
@@ -7,17 +7,17 @@ public class AddAndRemoveModifiersTest
 {
     public void Test()
     {
-        CharacterStat stat = new CharacterStat(10f);
+        CharacterStat charStat = new CharacterStat(100f); // Initialize a CharacterStat with a base value of 100
 
-        // Test AddModifier
-        StatModifier modifier = new StatModifier(5f, StatModType.Flat);
-        stat.AddModifier(modifier);
-        Console.WriteLine($"Value after adding modifier: {stat.Value}");
+        charStat.AddModifier(new CharacterStat.StatModifier(50f, CharacterStat.StatModType.Flat)); // Add a flat modifier of 50
+        charStat.AddModifier(new CharacterStat.StatModifier(0.1f, CharacterStat.StatModType.PercentAdd)); // Add a percent add modifier of 10%
+        Console.WriteLine($"Final value of CharacterStat: {charStat.Value}");
 
-        // Test RemoveModifier
-        bool wasRemoved = stat.RemoveModifier(modifier);
-        Console.WriteLine($"Was modifier removed? {wasRemoved}");
-        Console.WriteLine($"Value after removing modifier: {stat.Value}");
+        charStat.RemoveModifier(charStat.StatModifiers[0]); // Remove the first modifier
+        Console.WriteLine($"Final value of CharacterStat after removing the first modifier: {charStat.Value}");
+
+        charStat.RemoveAllModifiersFromSource(null); // Remove all modifiers
+        Console.WriteLine($"Final value of CharacterStat after removing all modifiers: {charStat.Value}");
     }
 
 

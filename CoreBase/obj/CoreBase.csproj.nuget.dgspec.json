@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {}
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {}
   },
   "projects": {
-    "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
+        "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
         "projectName": "CoreBase",
-        "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
+        "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\CoreBase.csproj",
         "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
-        "outputPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\obj\\",
+        "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\CoreBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
-                "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
+              "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+                "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
+    "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
+        "projectUniqueName": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
         "projectName": "GodotCore",
-        "projectPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
+        "projectPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\GodotCore.csproj",
         "packagesPath": "C:\\Users\\Juanma\\.nuget\\packages\\",
-        "outputPath": "D:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "E:\\USERS\\PUBLIC\\PROJECTDREAM\\GODOTCORE\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
